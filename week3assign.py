@@ -1,8 +1,4 @@
-
-
 #week_3_Assignment
-
-
 
 def calculate_discount(price, discount_percent):
     """
@@ -16,12 +12,12 @@ def calculate_discount(price, discount_percent):
     else:
         return price
 
-# Prompt user for input
+# Prompt_user_for_input
 try:
     original_price = float(input("Enter the original price of the item: "))
     discount = float(input("Enter the discount percentage: "))
 
-    # Calculate and display the final price
+    # Calculate
     final_price = calculate_discount(original_price, discount)
 
     if discount >= 20:
@@ -31,3 +27,4 @@ try:
 
 except ValueError:
     print("Please enter valid numeric values for price and discount.")
+
